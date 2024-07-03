@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<transaction xmlns="http://www.w3schools.com" transactionName="MJJZT001" application="MJJZ" version="01" country="MX" language="ES">
+	<paramsIn>
+		<dto order="1" name="Customer" mandatory="0" package="com.bbva.mjjz.dto.customer.Customer" artifactId="MJJZC001">
+			<parameter order="1" name="idCustomer" mandatory="0" type="Long" size="10"/>
+		</dto>
+	</paramsIn>
+	<paramsOut>
+		<dto order="1" name="Customer" mandatory="0" package="com.bbva.mjjz.dto.customer.Customer" artifactId="MJJZC001">
+			<parameter order="1" name="idCustomer" mandatory="0" type="Long" size="10"/>
+			<parameter order="2" name="name" mandatory="0" type="String" size="50"/>
+			<parameter order="3" name="surname" mandatory="0" type="String" size="50"/>
+			<parameter order="4" name="rfc" mandatory="0" type="String" size="12"/>
+			<parameter order="5" name="contractNumber" mandatory="0" type="Long" size="10"/>
+			<parameter order="6" name="email" mandatory="0" type="String" size="80"/>
+		</dto>
+	</paramsOut>
+	<description>Transaccion de consulta de un cliente</description>
+</transaction>

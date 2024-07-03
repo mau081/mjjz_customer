@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<transaction xmlns="http://www.w3schools.com" transactionName="MJJZT004" application="MJJZ" version="01" country="MX" language="ES">
+	<paramsIn>
+		<parameter order="1" name="idCustomer" mandatory="0" type="Long" size="10"/>
+	</paramsIn>
+	<paramsOut>
+		<parameter order="1" name="resultDeletes" mandatory="0" type="Long" size="10"/>
+	</paramsOut>
+	<description>Transaccion para el borrado de clientes</description>
+</transaction>
